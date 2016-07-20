@@ -40,7 +40,7 @@ right_f.__str__ = lambda: "const(0)"
 bnd_functions = [[left_f, right_f]]
 
 num_points_mg_levels = OrderedDict()
-num_points_mg_levels['finest'] = 11
+num_points_mg_levels['finest'] = 9
 # num_points_mg_levels['mid'] = 5
 # num_points_mg_levels['base'] = 2
 print_logging_message_tree(OrderedDict({'Points on Space Grid': num_points_mg_levels}))
